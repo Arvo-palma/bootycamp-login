@@ -1,7 +1,8 @@
-import { NextPage } from "next/types";
+import { NextPage } from 'next/types'
+import LoginPage from './login/login-page'
 
 const Home: NextPage = () => {
-  return <h1>Hello World!</h1>;
-};
+  return <LoginPage />
+}
 
-export default Home;
+export default Home
